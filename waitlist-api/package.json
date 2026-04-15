@@ -1,0 +1,21 @@
+{
+  "name": "patina-waitlist-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render web service for Patina waitlist collection.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.1",
+    "pg": "^8.16.3"
+  }
+}
